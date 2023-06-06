@@ -1,0 +1,7 @@
+Shallow copy: Shallow copy, bir obyektdan ikkinchi obyektda istalgan obyektni ko'chirish
+bilan amalga oshiriladi, ammo bu faqatgina obyektning yuqori darajali (top-level) ko'rsatkichlari ko'chiriladi.
+ Ya'ni, shuningdek, agar original obyektning ichida boshqa obyektlar bo'lsa, ular ham original
+  obyekt va kiritilgan obyektning ichida bir xil yaradilgan bo'ladi.
+  Shallow copy kiritilgan obyekt va original obyektning ulardagi ko'rsatkichlar bilan birgalikda
+  ishlaydigan obyektlar ustida bir xil ishlovchi bo'ladi.
+ Shallow copy ko'chirish uchun Java clone() metodidan foydalaniladi.

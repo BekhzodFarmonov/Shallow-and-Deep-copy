@@ -1,0 +1,8 @@
+Deep copy: Deep copy esa obyektdan yangi o'zgaruvchilar orqali to'liq o'zgarmas nusxa yaratishni ifodalaydi.
+ Bu nusxa, obyektning barcha qismiga oid bo'lgan malumotlarni o'z ichiga oladi va
+ ulardan o'zgarishlar asosida original obyekt o'zgarmaydi. Ya'ni,
+ deep copy jarayonida boshqa obyektning bir nusxasi yaratiladi,
+  ammo obyektning ichidagi boshqa obyektlar ham yangi o'zgaruvchilar
+  yordamida to'liq o'zgarmas nusxalangan bo'ladi. Deep copy ko'chirish
+  uchun obyektning serializatsiya (serialization) va deserializatsiya
+  (deserialization) jarayonlaridan foydalanish mumkin.
